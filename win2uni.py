@@ -11,7 +11,8 @@ def replace(input):
 	output = re.sub(u'\u0063', u'\u1001', output)
 	output = output.replace(u'\u002A', u'\u1002')
 	output = re.sub(u'\u0043', u'\u1003', output)
-        output = re.sub(u'\u0069', u'\u1004', output)
+        output = re.sub(u'\u0069', u'\u1004', output)#ng
+
         output = re.sub(u'\u0070', u'\u1005', output)
 	output = re.sub(u'\u0071', u'\u1006', output)
         output = re.sub(u'\u005A', u'\u1007', output)
