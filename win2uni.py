@@ -12,7 +12,7 @@ def replace(input):
 	output = output.replace(u'\u002A', u'\u1002')
 	output = re.sub(u'\u0043', u'\u1003', output)
         output = re.sub(u'\u0069', u'\u1004', output)
-	output = re.sub(u'\u0070', u'\u1005', output)
+        output = re.sub(u'\u0070', u'\u1005', output)
 	output = re.sub(u'\u0071', u'\u1006', output)
         output = re.sub(u'\u005A', u'\u1007', output)
 	output = re.sub(u'\u00DA', u'\u1009', output)
@@ -82,7 +82,7 @@ def replace(input):
 
 def visual2logical(input):
 	output = input
-	output = re.sub(u'((?:\u1031)?)((?:\u103C)?)([\u1000-\u1021])((?:\u103D)?)((?:\u103B)?)((?:\u103E)?)((?:\u102C)?)', u"\\3\\2\\5\\4\\6\\1\\7", output);
+	output = re.sub(u'((?:\u1031)?)((?:\u103C)?)([\u1000-\u1021])((?:\u103D)?)((?:\u103B)?)((?:\u103E)?)((?:\u102C)?)', u"\\3\\2\\5\\4\\6\\1\\7", output)
 	return output
 
 def decompose(input):
